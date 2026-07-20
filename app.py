@@ -20,6 +20,8 @@ st.set_page_config(
 if df_item is None:
     st.stop()
 
+print(df_item)
+
 # Titre
 st.title('Générateur de description')
 st.markdown('---')
