@@ -5,7 +5,7 @@ import os
 @st.cache_data
 def load_data():
     """Charge toutes les feuilles Excel"""
-    excel_path = r'C:\document_script\nomenclature.xlsx'
+    excel_path = r'.\nomenclature.xlsx'
 
     if not os.path.exists(excel_path):
         st.error(f'Fichier non trouvé: {excel_path}')
