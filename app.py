@@ -36,7 +36,7 @@ with st.sidebar:
     4. Cliquez sur **Générer**
     ''')
     st.markdown('---')
-    st.caption('v1.2 - Sodimex')
+    st.caption('v1.2')
 
 # ---------------------------------------------------------------------------
 # Initialisation de session_state
@@ -372,4 +372,4 @@ if selected_item:
 
 # Footer
 st.markdown('---')
-st.caption('Générateur de nomenclature automatique basé sur les règles groupes')
+st.caption('Générateur de description automatique basé sur les règles groupes')
